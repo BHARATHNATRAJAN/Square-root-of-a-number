@@ -16,16 +16,22 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+#find the square root
+#Developed by : Bharath.N
+#Referance number : 23003413
+
+def sqrt(n,l):
+    x=n
+    for i in range (l):
+        x=0.5*(x+n/x)
+    print("Square root of the number:",x)
+a=int(input())
+l=100
+sqrt(a,l)
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
-
+![output](/square-root-output.png)
 
 ## Result:
 Thus the program to find the square root for the given number(newton's method) using function is written and verified using python programming.
